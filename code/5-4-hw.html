@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>week05</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            text-align: center;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100px; /* Set the maximum width for the image */
+            height: auto; /* Maintain the aspect ratio */
+        }
+
+        font {
+            font-size: 18px; /* You can adjust the font size as needed */
+            color: #3fa7ec;
+            transition: color 0.3s; /* Smooth color transition */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+        }
+
+        font:hover {
+            color: #ff4080; /* Change font color on hover */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+        .tooltip{
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black;
+            }
+
+            .tooltip .tooltiptext{
+                visibility: hidden;
+                width: 120px;
+                background-color: gray;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                bottom: 125%;
+                left: 50%;
+                margin-left: -60px;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+            .tooltip .tooltiptext::after{
+                content: "";
+                position:absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: gray transparent transparent transparent;
+            }
+
+            .tooltip:hover .tooltiptext{
+                visibility: visible;
+                opacity: 1;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <font size="3" color="#0000FF">Jiwon's Github</font>
+        <div></div>
+        <a href="https://github.com/z1one516?tab=repositories">Jiwon's GitHub</a>
+    </div>
+    <div class="tooltip"> Did you visit my github?
+        <span class="tooltiptext"> Thank you! Have a nice day!</span>
+
+
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/Xc1Le3CSdrM?si=IU9Qlm3wNzCO205M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
