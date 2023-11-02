@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul id="list"></ul>
+        <script>
+           var list = document.getElementById("list");
+           var products = ['Desktop', 'Monitor','Notebook','Speaker', 'Mouse'];
+
+           var html = '';
+
+           for(var product of products) {
+            html +='<li>' + product + '</li>';
+           }
+           list.innerHTML = html;
+
+        </script>
+    </body>
+</html>

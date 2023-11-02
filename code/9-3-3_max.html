@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+           function max(arr) {
+            var _max = -99999; // very small number
+            for (var i of arr) {
+                if (i > _max) {
+                    _max = i
+                }
+            }
+            return _max;
+           }
+
+           console.log("The largest number is "+ max([5,7,10,3,4]));
+        </script>
+    </body>
+</html>

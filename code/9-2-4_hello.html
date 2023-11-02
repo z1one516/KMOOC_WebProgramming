@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+    <body>
+        <h1 id ="current"></h1>
+        <p id = 'content'></p>
+    </body>
+    <script>
+        var time = new Date().getHours(); // 0~ 23
+        document.getElementById('current').innerHTML = 
+        "It's " + time + " o'clock.";
+
+        if (time<6) {
+            document.getElementById('content').innerHTML = "Good night :)";
+        } else if (time < 12) {
+            document.getElementById('content').innerHTML = "Good morning :)";
+        } else if (time < 18) {
+            document.getElementById('content').innerHTML = "Good afternoon :)";
+        } else {
+            document.getElementById('content').innerHTML = "Good evening :)";
+        }
+    </script>
+</html>

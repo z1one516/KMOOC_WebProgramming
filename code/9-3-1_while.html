@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id ="current"></h1>
+        <p id = 'content'></p>
+    </body>
+    <script>
+       var a = Math.floor(Math.random() * 10);
+        var b = Math.floor(Math.random() * 10);
+        var answer;
+
+        while (answer != a + b) {
+            answer = prompt(a + '+' + b + '=?');
+        }
+        console.log("정답입니다!");
+</html>

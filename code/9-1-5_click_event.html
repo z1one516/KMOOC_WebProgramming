@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="button">Click</button>
+        <p id = 'count'> clicked 0 times</p>
+        <script>
+            var button = document.getElementById('button');
+            var element = document.getElementById('count');
+
+            var count = 0;
+            button.addEventListener('click', function(){
+                count++;
+                element.innerText = count + ' times clicked';
+            });
+        </script>
+    </body>
+</html>
