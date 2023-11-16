@@ -1,0 +1,56 @@
+body {
+    background: #a1d0ff;
+}
+
+/* 가운데 위치 */
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+
+/* 동시에 효과 */
+.title,
+.contents {
+    background: white;
+    box-shadow: 0px 4px 10px 5px rgba(0,0,0,0.15);
+}
+
+.title {
+    text-align: center;
+}
+
+.contents {
+    padding: 10px;
+}
+
+/* align */
+.input_div {
+    display: flex;
+}
+/* flex: 화면의 요소 크기가 불명확 또는 동적으로 변할 때 효율적으로 배치, 정렬, 분 */
+
+#inputbox {
+    flex-grow: 1;
+}
+
+li {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+#inputBox{
+    flex-grow: 1;
+    height: 30px;
+}
+
+#deletButton {
+    margin: 0px 5px;
+}
+
+
+.checked {
+    text-decroation: line-through;
+}
+
+
