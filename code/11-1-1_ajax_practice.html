@@ -1,0 +1,20 @@
+<html>
+    <body>
+        content added
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $.ajax('11-1-1_data.txt')
+            .done(function(data){
+                // code that executes when is succssful
+                console.log(data);
+            })
+            .fail(function(eror){
+                // code that executes when failed
+                console.log("Error occurred!")
+            })
+            .always(function(){
+                // code that executes all the time
+                console.log("When ajax is done, this code will be executed.");
+            });
+            console.log("Ajax is asynchronous way.")
+        </script>
