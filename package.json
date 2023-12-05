@@ -1,0 +1,12 @@
+{
+  "name": "kmooc_webprogramming",
+  "version": "1.0.0",
+  "description": "This repository is about web programming using HTML, CSS, and JavaScript from a Massive Online Open Course in web programming.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
